@@ -15,7 +15,7 @@ public class HabitService {
         return habitRepository.save(habit);
     }
 
-    public List<Habit> findHabitByUserId(Long userId){
+    public List<Habit> findHabitsByUserId(Long userId){
         return habitRepository.findByUser_Id(userId);
     }
 
