@@ -3,9 +3,11 @@ package com.brnprog.habits_app_backend.service;
 import com.brnprog.habits_app_backend.model.Habit;
 import com.brnprog.habits_app_backend.repository.IHabitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class HabitService {
 
     @Autowired
